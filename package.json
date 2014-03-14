@@ -10,6 +10,8 @@
     "hjs": "*",
     "less-middleware": "*",
     "habitat": "^1.1.0",
-    "twitter": "^0.2.9"
+    "twitter": "^0.2.9",
+    "levelup": "^0.18.2",
+    "leveldown": "^0.10.2"
   }
 }

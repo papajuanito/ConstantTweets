@@ -11,6 +11,10 @@ var worker = require('child_process').fork('streamer.js');
 
 var app = module.exports = express();
 
+process.on('exit', function(code) {
+  worker.kill();
+});
+
 // all environments
 app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views'));
