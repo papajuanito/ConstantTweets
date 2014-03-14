@@ -7,6 +7,8 @@ var express = require('express');
 var http = require('http');
 var path = require('path');
 
+var worker = require('child_process').fork('streamer.js');
+
 var app = module.exports = express();
 
 // all environments

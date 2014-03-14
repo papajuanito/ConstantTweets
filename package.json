@@ -9,6 +9,7 @@
     "express": "3.4.8",
     "hjs": "*",
     "less-middleware": "*",
-    "habitat": "^1.1.0"
+    "habitat": "^1.1.0",
+    "twitter": "^0.2.9"
   }
 }
